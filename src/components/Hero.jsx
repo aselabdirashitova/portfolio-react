@@ -31,7 +31,7 @@ export default function Hero() {
           <span className="code-symbol sym-3" aria-hidden="true">;</span>
           <div className="photo-glow" aria-hidden="true"></div>
           <div className="photo-frame">
-            <img src="/profile.png" alt="Асел Абдирашитова" className="hero-photo" width="640" height="800" />
+            <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Асел Абдирашитова" className="hero-photo" width="640" height="800" />
           </div>
         </div>
       </div>
